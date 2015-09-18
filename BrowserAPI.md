@@ -1167,6 +1167,7 @@ Sent when the user select content in the page. Used by the embedder to show a co
     caretVisible: Boolean, // Indicate the caret visiibility.
     selectionVisible: Boolean, // Indicate current selection is visible or not.
     selectionEditable: Boolean, // Indicate current selection is editable or not.
+    selectedTextContent: String, // Contains current selected text content.
 
     // Possible commands: cut, copy, paste, selectall
     sendDoCommandMsg: function(command),
